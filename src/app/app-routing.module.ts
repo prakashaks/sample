@@ -6,14 +6,11 @@ import { DetailsComponent } from './details/details.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'user',
+    redirectTo: 'details',
     pathMatch: 'full'
   },
 
-  {
-    path: 'user',
-    component: UserComponent
-  },
+  
   {
     path: 'details',
     component: DetailsComponent
